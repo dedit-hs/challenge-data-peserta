@@ -11,7 +11,7 @@ import {
 import { PesertaService } from './peserta.service';
 import { CreatePesertaDto } from './dto/create-peserta.dto';
 import { FilterGenderDto } from './dto/filter-peserta.dto';
-import { genderStatus, Peserta } from './interfaces/peserta.model';
+import { Peserta } from './interfaces/peserta.model';
 import { UpdateGenderPeserta } from './dto/update-gender-peserta.dto';
 
 @Controller('peserta')
